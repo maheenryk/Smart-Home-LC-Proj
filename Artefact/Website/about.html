@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://miro.medium.com/max/1838/1*09PYj2KQ8fDLHlV0BPE7_A.jpeg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.w3-win8-lime
+{color:#fff;background-color:#a4c400}
+.w3-win8-green
+{color:#fff;background-color:#60a917}
+.w3-win8-emerald
+{color:#fff;background-color:#008a00}
+.w3-win8-teal
+{color:#fff;background-color:#00aba9}
+.w3-win8-cyan
+{color:#fff;background-color:#1ba1e2}
+.w3-win8-blue
+{color:#fff;background-color:#3e65ff}
+.w3-win8-cobalt
+{color:#fff;background-color:#0050ef}
+.w3-win8-indigo
+{color:#fff;background-color:#6a00ff}
+.w3-win8-violet
+{color:#fff;background-color:#aa00ff}
+.w3-win8-pink
+{color:#fff;background-color:#f472d0}
+.w3-win8-magenta
+{color:#fff;background-color:#d80073}
+.w3-win8-crimson
+{color:#fff;background-color:#a20025}
+.w3-win8-red
+{color:#fff;background-color:#e51400}
+.w3-win8-orange
+{color:#fff;background-color:#fa6800}
+.w3-win8-amber
+{color:#fff;background-color:#f0a30a}
+.w3-win8-yellow
+{color:#fff;background-color:#e3c800}
+.w3-win8-brown
+{color:#fff;background-color:#825a2c}
+.w3-win8-olive
+{color:#fff;background-color:#6d8764}
+.w3-win8-steel
+{color:#fff;background-color:#647687}
+.w3-win8-mauve
+{color:#fff;background-color:#76608a}
+.w3-win8-taupe
+{color:#fff;background-color:#87794e}
+.w3-win8-sienna
+{color:#fff;background-color:#a0522d}
+
+.w3-2021-marigold
+{color:#fff;background-color:#FDAC53}
+.w3-2021-cerulean
+{color:#000;background-color:#9BB7D4}
+.w3-2021-rust
+{color:#fff;background-color:#B55A30}
+.w3-2021-illuminating
+{color:#000;background-color:#F5DF4D}
+.w3-2021-french-blue
+{color:#fff;background-color:#0072B5}
+.w3-2021-green-ash
+{color:#000;background-color:#A0DAA9}
+.w3-2021-burnt-coral
+{color:#fff;background-color:#E9897E}
+.w3-2021-mint
+{color:#fff;background-color:#00A170}
+.w3-2021-amethyst-orchid
+{color:#fff;background-color:#926AA6}
+.w3-2021-raspberry-sorbet
+{color:#fff;background-color:#D2386C}
+.w3-2021-inkwell
+{color:#fff;background-color:#363945}
+.w3-2021-ultimate-gray
+{color:#fff;background-color:#939597}
+.w3-2021-buttercream
+{color:#000;background-color:#EFE1CE}
+.w3-2021-desert-mist
+{color:#000;background-color:#E0B589}
+.w3-2021-willow
+{color:#fff;background-color:#9A8B4F}
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"><img class="w3-image w3-round-small" src="https://cdn.glitch.global/c783f12f-61c0-42ed-a76f-d4cd2f160b1f/logo.png?v=1643189089450" alt="Buildings" width="26" height="26"> HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+      <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"></i> TEAM</a>
+      <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-user-circle-o"></i> LOG IN</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="login.html" onclick="w3_close()" class="w3-bar-item w3-button">LOG IN</a>
+</nav>
+
+
+<!-- About Section -->
+<div class="w3-container w3-deep-purple w3-text-white" style="padding:128px 16px" id="about">
+  <h1 class="w3-center">ABOUT THE COMPANY</h1>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>We are the most responsive smart home company in the market. With our expert workforce and dedication, we'll 
+        rise above your expectations, and improve your quality of life.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>This company was started by people with a passion for life. We've brought this passion into our work and 
+        ensured each product is up to the task. All our software and devices are curated with perfection in mind.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>We create with simplistic elegance, to integrate accessibility and ease into our product. Our design shows 
+        beauty as well as functionality, to provide you with the best we have to offer.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>Our 24/7 support team is here to assist you whenever you need. No matter the time or day, we're here for you, 
+        and we'll never let you down. Choose to believe in us, we will strive to never fail.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Desc Section - "Who are we?" -->
+<div class="w3-container w3-purple" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h1>Who are we?</h1>
+      <p>We are your freedom. In a world full of miniscule hassles which take away from what really matters, 
+        we are here to bring you home. Allow comfort to seep into your life, as we handle some of the stress 
+        of a household. We realized the importance of time, especially the time reserved for ourselves and 
+        our loved ones, slowly slipping away from us as we get lost in the busy mess of life. This is the reason 
+        we want to make your home your comfort zone. At home, your worry will ease into nothingness, as pure 
+        bliss surrounds you.
+      </p>
+      <p>Founded in 2021, we've strived to make an impact on the world, and truly change lives for the better. Our 
+        sole focus is our customer satisfaction, our drive is helping people connect to the world they're missing out on, 
+        and our goal is to creat a smart home out of each and every house.
+      </p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="family.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Desc Section - "What do we do?" -->
+<div class="w3-container w3-pink" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="smart-home.jpg" alt="Buildings" width="700" height="394">
+    </div>
+    <div class="w3-col m6">
+      <h1 align="right">What do we do?</h1>
+      <p align="right">We make your home smarter than ever before. With our exceptionally priced plans 
+        you will get to not only control the lights in each room of your house, but the air conditioning, the windows, 
+        even the blinds. Along with tremendous control, view the temperatures throughout the house in a visual graph 
+        presented in your home page. Once logged in, you will be able to use our website to control your house. 
+      </p>
+      <p align="right">Allow your home to become responsive to the environment within. No need to worry about coming home 
+        to a cold or hot house, keep it perfect at your desired temperature. When the temperature reaches a certain level 
+        our smart home device will automatically switch on the air conditioning. You will be able to monitor the changes 
+        on the website and turn the air conditioner off if you wish. 
+      </p>
+    </div>
+
+  </div>
+</div>
+  
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-2021-burnt-coral" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h2>We know design. We know you.</h2>
+      <p>Don't just take our word for it.<br>See for yourself.</p>
+      <p><a href="team.html" class="w3-button w3-2021-raspberry-sorbet"><i class="fa fa-th"></i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="homeauto.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+  
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="about.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+ <p class="w3-small">Thanks for checking out our website. We hope you consider buying our product!</p>
+ <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="pricing.html">Buy now</a>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+WEBVTT
+
+00:00:00.050 --> 00:00:04.818
+So this is the website for my
+smart home system and it has all
+
+00:00:04.818 --> 00:00:09.056
+the information about the
+project, about the team, about
+
+00:00:09.056 --> 00:00:13.976
+the company and it's all in tabs
+that you can click on and go to
+
+00:00:13.976 --> 00:00:15.306
+and navigate.
+
+00:00:17.030 --> 00:00:22.267
+It has everything from our work,
+our skills, our team, the
+
+00:00:22.267 --> 00:00:28.125
+pricing, how to contact us and a
+login page. So currently there's
+
+00:00:28.125 --> 00:00:33.363
+one login here in Firebase I can
+add another login by just
+
+00:00:33.363 --> 00:00:36.470
+putting the information into
+these
+
+00:00:38.820 --> 00:00:40.150
+These fields here.
+
+00:00:47.500 --> 00:00:52.879
+So that's done and that
+instantly shows up in Firebase
+
+00:00:52.879 --> 00:00:56.010
+because of this JavaScript file.
+
+00:00:57.100 --> 00:01:03.085
+So if I go back into the login
+page now, I can use that to
+
+00:01:03.085 --> 00:01:04.415
+basically,
+
+00:01:08.680 --> 00:01:10.010
+log in.
+
+00:01:11.950 --> 00:01:16.836
+And it brings me to the home
+page. So currently the home page
+
+00:01:16.836 --> 00:01:21.329
+is showing the temperatures. So
+now when I run the Python
+
+00:01:21.329 --> 00:01:22.659
+program.
+
+00:01:22.910 --> 00:01:26.407
+I'll quickly register the room.
+You'll see the temperatures
+
+00:01:26.407 --> 00:01:29.964
+start showing up on the graph,
+and I had heated up the micro
+
+00:01:29.964 --> 00:01:33.345
+bit a little bit, so now the
+temperature is going to drop
+
+00:01:33.345 --> 00:01:34.675
+just like that.
+
+00:01:34.850 --> 00:01:37.640
+And as the temperature drops,
+
+00:01:39.140 --> 00:01:41.310
+the current temperature in
+Firebase also changes.
+
+00:01:43.580 --> 00:01:48.092
+So that you can, you can see the
+changes in temperature of your
+
+00:01:48.092 --> 00:01:50.560
+house in real time on the
+website,
+
+00:01:51.240 --> 00:01:54.630
+as the program runs and the data
+is graphed,
+
+00:01:56.000 --> 00:01:57.430
+using Firebase and Python.
+
+00:01:58.220 --> 00:02:01.708
+While the Python program is
+running, you can register by
+
+00:02:01.708 --> 00:02:05.379
+pressing the A button on your
+microbit which sends your ID,
+
+00:02:05.379 --> 00:02:09.051
+your name, the room that you're
+in, and the current time to
+
+00:02:09.051 --> 00:02:13.028
+Firebase which uploads it under
+registry. So first I'll register
+
+00:02:13.028 --> 00:02:16.639
+the room that we're in by
+pressing the A button on the micro
+
+00:02:16.639 --> 00:02:20.127
+bit, and when the room is
+registered you can control the
+
+00:02:20.127 --> 00:02:23.921
+devices in the room through the
+website. So when I click open
+
+00:02:23.921 --> 00:02:27.592
+window that sends- that changes
+the status in Firebase which
+
+00:02:27.592 --> 00:02:29.490
+Python reads and then sends to
+
+00:02:29.540 --> 00:02:33.780
+the microbit connected to it,
+which then radio signals it to
+
+00:02:33.780 --> 00:02:38.088
+the microbit connected to the
+servo, and then that's able to
+
+00:02:38.088 --> 00:02:42.534
+rotate the servo. So the website
+can also be used to control the
+
+00:02:42.534 --> 00:02:46.774
+devices in the different rooms.
+So if I head over to the rooms
+
+00:02:46.774 --> 00:02:51.151
+tab, I can select any of these
+rooms and I can adjust or change
+
+00:02:51.151 --> 00:02:55.049
+the status of the devices there.
+So if I turn on the air
+
+00:02:55.049 --> 00:02:59.289
+conditioner in Firebase, the
+condition automatically switches
+
+00:02:59.289 --> 00:03:00.619
+to on,
+
+00:03:00.200 --> 00:03:05.066
+off. I can open up open the
+blinds. I can lower them and I
+
+00:03:05.066 --> 00:03:07.920
+can do this for any of the
+rooms.
+
+00:03:09.290 --> 00:03:10.620
+Like so.
+
+00:03:11.010 --> 00:03:16.325
+So all of these devices, they can
+be connected to Python, or, a
+
+00:03:16.325 --> 00:03:20.985
+microbit and they can be
+controlled from the website. So
+
+00:03:20.985 --> 00:03:26.137
+the way the website works with Python
+and Firebase is using JavaScript,
+
+00:03:26.137 --> 00:03:31.370
+so whenever I press any of the
+buttons in the website they call
+
+00:03:31.370 --> 00:03:35.295
+a specific function in
+JavaScript which then
+
+00:03:35.295 --> 00:03:40.446
+communicates to Firebase and in
+the case of turning on the air
+
+00:03:40.446 --> 00:03:41.776
+conditioning,
+
+00:03:41.760 --> 00:03:46.020
+it sets the condition to on or
+off, or in the case of windows,
+
+00:03:46.020 --> 00:03:47.350
+to open or close.
+
+00:03:49.290 --> 00:03:54.163
+And similarly, when make-
+creating login or checking
+
+00:03:54.163 --> 00:03:55.493
+logins,
+
+00:03:55.620 --> 00:03:56.950
+Uhm,
+
+00:03:56.980 --> 00:04:00.630
+JavaScript communicates with
+Firebase and gets the
+
+00:04:00.630 --> 00:04:01.960
+information,
+
+00:04:02.160 --> 00:04:06.929
+uh, that's already there in
+Firebase to check whether the
+
+00:04:06.929 --> 00:04:11.863
+user- the email or the password
+match, and then if- if they do
+
+00:04:11.863 --> 00:04:16.714
+match then it opens the home
+page for the user. So to plot
+
+00:04:16.714 --> 00:04:22.142
+the graph about the temperatures
+in the website, I used Plotly in
+
+00:04:22.142 --> 00:04:27.322
+JavaScript which communicates
+with Firebase and- and retrieves
+
+00:04:27.322 --> 00:04:31.763
+the information about each of
+the rooms and uses that
+
+00:04:31.763 --> 00:04:33.093
+information,
+
+00:04:33.350 --> 00:04:38.142
+uh, to gather- to create a set of
+data which it uses to plot a
+
+00:04:38.142 --> 00:04:42.702
+graph in the HTML site. This
+entire system is connected to
+
+00:04:42.702 --> 00:04:47.494
+each other. This website to- to
+the database, Firebase, and then
+
+00:04:47.494 --> 00:04:52.441
+an embedded system for which I
+used microbits, and all of these
+
+00:04:52.441 --> 00:04:57.155
+systems are able to communicate
+with each other and transfer
+
+00:04:57.155 --> 00:04:59.320
+data to create a smart home.

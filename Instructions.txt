@@ -1,0 +1,15 @@
+By opening the report using this link: https://154306-report.glitch.me/ 
+Captions will be available in the video's controls.
+
+--To run the project--
+1. Install the microbit files onto three microbits respectively, the room microbit should
+be left connected to the PC.
+2. The USER ID microbit should be connected to a battery pack.
+3. The control microbit should be connected to a motorbit with a servo motor on pin 13.
+4. Run registerUser.py
+5. Register the room by pressing the A button on the room's microbit.
+6. Log into the website at login.html
+7. Monitor as the temperatures are graphed.
+8. Click on the Rooms tab, and click on Jason's Room.
+9. Press the open and close window buttons to rotate the servo motor.
+10. Press the A button on your user ID microbit, and you will be registered onto the database.
